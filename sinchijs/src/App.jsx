@@ -54,7 +54,7 @@ return (
             className="border px-4 py-2 rounded mt-2 md:mt-0 w-full md:w-64"
           />
         </div>        
-        <h1 className="text-3xl font-bold mb-6 text-gray-800">Listado de Personas</h1>
+        <h1 className="text-3xl font-bold mb-6 text-gray-800">Listado de Productos</h1>
         <table className="min-w-full border border-gray-300 rounded-md overflow-hidden">
           <thead className="bg-gray-200 text-gray-700">
             <tr>
