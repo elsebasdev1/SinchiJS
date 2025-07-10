@@ -19,7 +19,7 @@ function AgregarProducto({ onSuccess }) {
     e.preventDefault();
     try {
       await addProducto(formData);
-      toast.success('Producto agregada correctamente');
+      toast.success('Producto agregado correctamente');
       setFormData({ codigo: '', nombre: '', categoria: '', stock: ''});
       if (onSuccess) onSuccess();
     } catch (error) {
